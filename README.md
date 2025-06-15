@@ -1,16 +1,3 @@
-# CodeCraft - Premium Mobile App Source Code Marketplace
-
-A modern micro SaaS platform built with Next.js and Stripe that sells premium mobile app source code with subscription-based access.
-
-## 🚀 Features
-
-- **Beautiful Landing Page** - Modern gradient design with responsive layout
-- **Subscription Management** - Multiple pricing tiers with Stripe integration
-- **Account Dashboard** - User-friendly interface for managing subscriptions
-- **Secure Payments** - Full Stripe integration with webhooks
-- **Mobile App Templates** - React Native, Flutter, and native iOS/Android code
-- **Commercial Licensing** - Full rights to use code in commercial projects
-- **TypeScript Support** - Fully typed codebase for better development experience
 
 ## 🛠️ Tech Stack
 
@@ -158,28 +145,6 @@ const fallbackPlans = [
 
 ## 🚀 Deployment
 
-### Deploy to Vercel
-
-1. **Connect to Vercel**
-   ```bash
-   npm install -g vercel
-   vercel
-   ```
-
-2. **Set Environment Variables**
-   Add your Stripe keys in the Vercel dashboard
-
-3. **Update Webhook URL**
-   Update your Stripe webhook endpoint to use your production domain
-
-### Deploy to Other Platforms
-
-The app can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
-
 ## 🔍 API Endpoints
 
 | Endpoint | Method | Description |
@@ -212,18 +177,4 @@ Use Stripe's test card numbers:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📧 Support
-
-For support, email support@codecraft.dev or create an issue in this repository.
-
----
-
-Built with ❤️ using Next.js and Stripe
